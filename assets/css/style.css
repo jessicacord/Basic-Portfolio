@@ -1,0 +1,196 @@
+body h1, h2, h3, h4 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+}
+
+body h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+body h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+body h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("../images/circles-light.png");
+    background-repeat: repeat;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px 150px;
+}
+
+.navbar {
+    width: 960px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    height: 80px;
+    width: 400px;
+    padding-top: 23px;
+    text-align: center;
+}
+
+.name h1 {
+    color: white;
+}
+
+.nav {
+    float: right;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.nav li {
+    float: left;
+    width: 100px;
+    border-right: 1px solid #cccccc;
+}
+
+.nav .last {
+    border-right: 0px;
+}
+
+.nav a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+.content {
+    margin: 180px 0px 0px 150px;
+    width: 960px;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";    
+}
+.main {
+    background-color: #ffffff;
+    border: 0.2px solid #cccccc;
+    float: left;
+    width: 570px;
+    padding: 40px;
+}
+
+.title {
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 30px;
+}
+
+.profile {
+    margin-top: 30px;
+}
+
+.headshot img {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    width: 40%;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    border: 0.2px solid #cccccc;
+    float: right;
+    padding: 25px;
+    width: 220px;
+}
+
+.sidebar .social img {
+    width: 50px;
+}
+
+.sidebar .social li {
+    float: left;
+    padding: 0px 10px;
+}
+
+.sidebar .title {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.copyright {
+    position: absolute;
+    top: 40%;
+    right: 45%;
+}
+
+form {
+    width: 550px;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    color: #cccccc;
+}
+
+form textarea {
+    width: 568px;
+    height: 80px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4aaaa5;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 0px;
+    border: none;
+}
+
+button p {
+    color: white;
+    font-size: 14px;
+}
+
+.portfolio-image {
+    float: left;
+    width: 200px;
+}

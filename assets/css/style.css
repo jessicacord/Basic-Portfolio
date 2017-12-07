@@ -85,9 +85,14 @@ header {
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: #AA6B4A;
+}
+
 .content {
     margin: 180px 0px 0px 150px;
     width: 960px;
+    
 }
 
 .clearfix:after {
@@ -194,6 +199,10 @@ button p {
     font-size: 14px;
 }
 
+button:hover {
+    background-color: #1F5D5A; 
+}
+
 .portfolio {
     margin-top: 30px;
     width: 600px;
@@ -208,7 +217,9 @@ button p {
 }
 
 .portfolio-image img {
-    width: 100%;
+    object-fit: cover;
+    width: 259px;
+    height: 200px;
     z-index: 1;
 }
 
@@ -218,6 +229,7 @@ button p {
     top: -50px;
     width: 100%;
     height: 33px;
+    object-fit: contain;
     background-color: #4aaaa5; 
     text-align: center;
     padding-top: 6px;

@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 h1, h2, h3, h4 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -29,6 +33,9 @@ h4 {
 }
 
 body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-image: url("../images/circles-light.png");
     background-repeat: repeat;
 }
@@ -92,7 +99,7 @@ header {
 .content {
     margin: 180px 0px 0px 150px;
     width: 960px;
-    
+    flex: 1 0 auto;
 }
 
 .clearfix:after {
@@ -154,6 +161,7 @@ footer {
     height: 100px;
     margin-top: 40px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 footer p {
